@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Youser Alalusi</title>
+
+</head>
+<body style="background-color:pink">
+<center><h1>Youser Alalusi's CSC 135 Home Page</h1></center>
+
+
+<h2>Introduction</h2>
+<p>My name is Youser Alalusi, I'm currently a junior at CSUS majoring in Computer 
+Science. I'm mostly comfortable using Java and Unix but really interested in learning more 
+Python, C, and Javascript. My main goal when I graduate as a software engineer is to create a successful
+app of my creation.</p>
+
+<h2>E-mail</h2>
+<p>youseralalusi@csus.edu</p>
+
+<h2>Favorite Picture</h2>
+<p>This is my dog Luka, he's a 3 year old maltese shih-tzu mix and he loves taking long walks. This is a 
+picture of him at his favorite dog park.</p>
+
+<center>
+<img src="Luka.jpg" align=middle>
+</center>
+
+<br/>
+
+<h2>PL Assignment 1</h2>
+<p>-Syntax: Aspects of a programming language that can be modeled 
+by a context free grammar.</p>
+<p>-Semantics: Rules of a programming language that help us interpret 
+the meaning of a given string.</p>
+<p>-Lexical Scanning: Converting sequences of single character tokens to a set of 
+units that have their own meaning.</p>
+<p>-Parsing and Parser: Explaining a sentence through its grammatical derivation that is
+familiar to most of us froma  study of natural languages.</p>
+
+<br/>
+
+<p>References: Peter Linz 5th Edition An Introduction to Formal Languages and Automata.</p>
+
+</body>
+</html>
