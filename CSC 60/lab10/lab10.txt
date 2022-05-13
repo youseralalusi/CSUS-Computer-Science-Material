@@ -1,0 +1,86 @@
+Script started on Thu 13 May 2021 06:52:48 PM PDT
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[cs60521@athena lab10]> touch lab9_10.h
+[cs60521@athena lab10]> make
+gcc -c lab10.c -Wall
+gcc -c ParseLine.c -Wall
+gcc -c ProcessInput.c -Wall
+gcc -c Redirection.c -Wall
+gcc -c RunExternalCommand.c -Wall
+gcc lab10.o ParseLine.o ProcessInput.o Redirection.o RunExternalCommand.o  -o lab10
+[cs60521@athena lab10]> lab10
+
+csc60msh >ls>lsout
+Agc = 1 
+Argv 0 = ls>lsout
+
+csc60msh >cat lsout
+Agc = 2 
+Argv 0 = cat
+Argv 1 = lsout
+
+csc60msh >ls>lsout>file1
+Agc = 1 
+Argv 0 = ls>lsout>file1
+
+csc60msh >cat foo.txt
+Agc = 2 
+Argv 0 = cat
+Argv 1 = foo.txt
+
+csc60msh >>lsout
+Agc = 1 
+Argv 0 = >lsout
+
+csc60msh ><lsout
+Agc = 1 
+Argv 0 = <lsout
+
+csc60msh >wc<lsout
+Agc = 1 
+Argv 0 = wc<lsout
+
+csc60msh >wc<lsout>wcout
+Agc = 1 
+Argv 0 = wc<lsout>wcout
+
+csc60msh >cat wcout
+Agc = 2 
+Argv 0 = cat
+Argv 1 = wcout
+
+csc60msh >wc<lsout<wcout
+Agc = 1 
+Argv 0 = wc<lsout<wcout
+
+csc60msh >cd ../lab1
+Agc = 2 
+Argv 0 = cd
+Argv 1 = ../lab1
+Error on the exec call
+Child returned status: 256
+
+
+csc60msh >gcc lab1.c
+Agc = 2 
+Argv 0 = gcc
+Argv 1 = lab1.c
+
+csc60msh >a.out
+Agc = 1 
+Argv 0 = a.out
+
+csc60msh >exit
+Agc = 1 
+Argv 0 = exit
+[cs60521@athena lab10]> exit
+exit
+
+Script done on Thu 13 May 2021 06:55:06 PM PDT

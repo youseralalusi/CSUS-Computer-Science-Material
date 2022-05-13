@@ -1,0 +1,33 @@
+Script started on Fri 19 Mar 2021 09:00:42 AM PDT
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[cs60521@athena lab5]> touch lab5.h
+[cs60521@athena lab5]> make
+gcc -c lab5.c 
+gcc -c open_in_file.c
+gcc -c open_out_file.c 
+gcc -c find_box_values.c
+gcc lab5.o open_in_file.o open_out_file.o print_headers.o find_box_values.o -o labfive 
+[cs60521@athena lab5]> labfive
+[cs60521@athena lab5]> cat lab5.txt
+
+Your Name, Lab5. 
+
+ Length  Width  Height  Volume  SurfaceArea 
+ ------  -----  ------  ------  -----------
+   3.70   5.00   4.20    77.70    110.08
+   6.80   3.00   5.90   120.36    156.44
+   4.00   3.30   6.10    80.52    115.46
+   5.60   7.30   5.60   228.93    226.24
+
+
+[cs60521@athena lab5]> exiyt[K[Kt
+exit
+
+Script done on Fri 19 Mar 2021 09:01:02 AM PDT
