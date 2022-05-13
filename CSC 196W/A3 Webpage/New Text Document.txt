@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mario Kart</title>
+  </head>
+  <body>
+    <h1>Mario Kart</h1>
+    <p>One of my favorite childhood games that I still play until this day is <strong><a href="https://play.google.com/store/apps/details?id=com.nintendo.zaka&hl=en_US&gl=US" 
+	title="Mario Kart" target="_blank">Mario Kart. </a><strong><a href="https://www.youtube.com/watch?v=wdh7nN54IlE" 
+	title="Yoshi" target="_blank">Yoshi</a> has always been my favorite character to play. Fun fact about Yoshi is that the character was based on a green dragon that literally fights satan.</p>
+    <img src="https://asset.vg247.com/mario_kart_8_deluxe.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/mario_kart_8_deluxe.jpg">
+  </body>
+</html>
